@@ -1,0 +1,12 @@
+Create new env: 
+	conda create -n exp-tracking-env python=3.9
+
+	conda activate exp-tracking-env 
+
+Install dependencies: 
+	pip install -r requirements.txt
+
+Configure mlflow with backend (tells mlflow we want to store all artifacts and metadata in sqlite): 
+	mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+Then everything else is done in the notebook. 
