@@ -1,0 +1,3 @@
+Didnt really complete the HW, got some weird error with the df_val, this set after OHE with dict vectorizer, the number of columns do not allign with the train dataset, not sure where did I make mistake.. 
+
+For train dataset, everything should be correct tho.. 
